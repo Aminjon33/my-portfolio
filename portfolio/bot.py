@@ -1,7 +1,7 @@
 import requests
 
 def send_message(text):
-    url = f"https://api.telegram.org/bot6531846833:AAEHJUbK9P2ydZsrgNuBC6MwwDAaf5ZLTdY/sendMessage"
-    params = {"chat_id": '6214256605', "text": text}
+    url = f"https://api.telegram.org/bot7372580855:AAFFiQMTgiCbxW9xI-Vy5IEW9IAJGzUc8bk/sendMessage"
+    params = {"chat_id": '7478200510', "text": text}
     response = requests.post(url, data=params)
     return response.json()
